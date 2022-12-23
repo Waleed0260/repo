@@ -1,0 +1,70 @@
+/* div{
+    width: 100%;
+    display: flex;
+    width: 14rem;
+    border-radius: 6px;
+    text-align: center;
+
+
+}
+div>span{
+    margin: 10px;
+}
+
+div>span:nth-of-type(1){
+    background-color: rgb(245, 223, 223);
+    width: 90%;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+div>span:nth-of-type(1):hover{
+    background-color: rgb(115, 124, 115);
+    transition: 0.4s;
+    color: white;
+}
+div>span:nth-of-type(2){
+    background-color: rgb(243, 243, 198);
+    width: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+div>span:nth-of-type(2):hover{
+    background-color: rgb(115, 124, 115);
+    transition: 0.4s;
+    color: white;
+} */
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+    width: 14vw;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+.buttons>span:nth-of-type(1){
+    background-color: rgb(245, 223, 223);
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.buttons>span:nth-of-type(2){
+    background-color: rgb(243, 243, 198);
+    width: 30%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}

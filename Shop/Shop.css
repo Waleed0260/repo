@@ -1,0 +1,76 @@
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    position: absolute;
+    top: 1030px;
+    left: 17vw;
+}
+
+
+.shop-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 26rem;
+    width: 16rem;
+    background-color: white;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.3px solid rgb(212, 209, 209);
+
+}
+.shop-items>img{
+    height: 15rem;
+    width: 13rem;
+}
+.shop-items:hover{
+    margin-top: -5px;
+    transition: 0.3s;
+}
+
+
+.shop-items>div{
+    width: 100%;
+    display: flex;
+    width: 14rem;
+    border-radius: 6px;
+    text-align: center;
+
+
+}
+.shop-items>div>span{
+    margin: 10px;
+}
+
+.shop-items>div>span:nth-of-type(1){
+    background-color: rgb(245, 223, 223);
+    width: 90%;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.shop-items>div>span:nth-of-type(1):hover{
+    background-color: rgb(115, 124, 115);
+    transition: 0.4s;
+    color: white;
+}
+.shop-items>div>span:nth-of-type(2){
+    background-color: rgb(243, 243, 198);
+    width: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.shop-items>div>span:nth-of-type(2):hover{
+    background-color: rgb(115, 124, 115);
+    transition: 0.4s;
+    color: white;
+}
